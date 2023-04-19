@@ -1,0 +1,36 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+.container-nav {
+  background-color: aquamarine;
+  height: 15vh;
+}
+
+.navbar {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+}
+
+.nav-links {
+  display: flex;
+  margin: 30px;
+  text-decoration: none;
+}
+
+.nav-link {
+  margin-left: 40px;
+  list-style: none;
+}
+
+.link {
+  color: white;
+  text-decoration: none;
+}
+
+.link:hover {
+  color: firebrick;
+}

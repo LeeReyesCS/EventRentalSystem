@@ -1,0 +1,16 @@
+Homepage --> 
+
+Navbar --> 
+1. Name and logo image 
+2. Links to pages
+
+Hero --> 
+Displays cards of products/services for rental or usuage. 
+Each card will have an image a price and a description.
+
+Footer --> 
+Links to social media
+Links to pages 
+Logo image 
+
+Website has to be mobile friendly so make changes to fit it.
