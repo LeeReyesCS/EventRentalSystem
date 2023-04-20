@@ -1,13 +1,17 @@
 import React from "react";
 import { Link } from "react-router-dom";
 import "../styles/Navbar.css";
+import { GiPartyPopper } from "react-icons/gi";
 
 const Navbar = () => {
   return (
     <div className="container-nav">
       <nav className="navbar">
         <div className="logo">
-          <h1>Gabby's Party Rental</h1>
+          <h1>
+            Gabby's Party Rental{" "}
+            <GiPartyPopper style={{ marginLeft: "20px" }} />
+          </h1>
         </div>
         <ul className="nav-links">
           <Link to="/" className="link">

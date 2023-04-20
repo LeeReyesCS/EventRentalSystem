@@ -1,0 +1,50 @@
+@import url("https://fonts.googleapis.com/css2?family=Alfa+Slab+One&display=swap");
+
+.hero-container {
+  background-color: aquamarine;
+}
+
+.hero-img {
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.hero-text {
+  margin-top: 50px;
+  font-family: "Alfa Slab One", cursive;
+  letter-spacing: 3px;
+  text-align: center;
+}
+
+.Homepagepic {
+  height: 350px;
+  border-radius: 20px;
+}
+
+.HeroPic {
+  height: 350px;
+  border-radius: 20px;
+}
+
+.btn-book-now {
+  margin-top: 20px;
+  background-color: darkcyan;
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+}
+
+.btn-book-now:hover {
+  color: darkcyan;
+  background-color: white;
+  cursor: pointer;
+}
+
+.hero-text h1 {
+  color: black;
+  font-size: 22px;
+}
