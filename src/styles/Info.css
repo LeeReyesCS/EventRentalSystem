@@ -11,7 +11,7 @@
 .item-card {
   height: 650px;
   width: 800px;
-  margin: auto;
+  /* margin: auto; */
   background-color: rgba(127, 255, 212, 0.63);
 }
 
@@ -51,4 +51,16 @@
 
 .entries p {
   margin-top: 20px;
+}
+
+/* Media Queries*/
+@media screen and (max-width: 480px) {
+  .info {
+    flex-direction: column;
+  }
+  .text-info,
+  .item-card,
+  .client-feedback {
+    width: 100vw;
+  }
 }
