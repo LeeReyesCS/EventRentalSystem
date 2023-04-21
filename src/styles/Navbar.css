@@ -1,12 +1,6 @@
 @import url("https://fonts.googleapis.com/css2?family=Alfa+Slab+One&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Rakkas&display=swap");
 
-* {
-  padding: 0;
-  margin: 0;
-  box-sizing: border-box;
-}
-
 .container-nav {
   background-color: aquamarine;
   height: 15vh;
@@ -45,4 +39,22 @@
 
 .link:hover {
   color: whitesmoke;
+}
+
+/* Media Queries */
+@media screen and (max-width: 480px) {
+  .logo {
+    position: relative;
+    left: 250px;
+    white-space: nowrap;
+  }
+
+  .nav-links {
+    position: relative;
+    right: 175px;
+    font-size: 14px;
+    top: 50px;
+    white-space: nowrap;
+    margin: 20px;
+  }
 }

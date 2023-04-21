@@ -12,7 +12,7 @@ const Contact = () => {
           <div className="contact-info">
             {" "}
             <input className="c1" type="text" placeholder="Name" />
-            <input type="text" placeholder="Email" />
+            <input type="email" placeholder="Email" />
           </div>
           <div className="message-info">
             <input className="c2" type="text" placeholder="Subject" />
