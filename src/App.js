@@ -4,6 +4,7 @@ import Homepage from "./pages/Homepage";
 import Rentals from "./pages/Rentals";
 import Info from "./pages/Info";
 import Contact from "./pages/Contact";
+import "bootstrap/dist/css/bootstrap.min.css";
 
 function App() {
   return (
