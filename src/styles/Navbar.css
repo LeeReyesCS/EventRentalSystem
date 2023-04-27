@@ -2,8 +2,8 @@
 @import url("https://fonts.googleapis.com/css2?family=Rakkas&display=swap");
 
 .container-nav {
-  background-color: aquamarine;
-  height: 15vh;
+  background-color: white;
+  height: 20vh;
 }
 
 .navbar {
@@ -38,7 +38,8 @@
 }
 
 .link:hover {
-  color: whitesmoke;
+  color: cadetblue;
+  opacity: 0.6;
 }
 
 /* Media Queries */

@@ -1,18 +1,23 @@
 import React from "react";
 import { Link } from "react-router-dom";
 import "../styles/Navbar.css";
-import { GiPartyPopper } from "react-icons/gi";
 import Dropdown from "react-bootstrap/Dropdown";
+import GabbysPic from "../images/Gabby-sLogo.jpg";
+import HomePagePic from "../images/Gabby_Homepage_Pic.jpg";
 
 const Navbar = () => {
   return (
     <div className="container-nav">
       <nav className="navbar">
         <div className="logo">
-          <h1>
-            Gabby's Party Rental{" "}
-            <GiPartyPopper style={{ marginLeft: "20px" }} />
-          </h1>
+          <div className="hero-img">
+            <img
+              style={{ height: "120px", paddingLeft: "150px" }}
+              className="Homepagepic"
+              src={GabbysPic}
+              alt=""
+            />
+          </div>
         </div>
         <ul className="nav-links">
           <Link to="/" className="link">
@@ -41,10 +46,8 @@ const Navbar = () => {
             </Dropdown.Toggle>
 
             <Dropdown.Menu>
-              <Dropdown.Item href="#/action-1">
-                Party Rental Items
-              </Dropdown.Item>
-              <Dropdown.Item href="#/action-2">Custom Products</Dropdown.Item>
+              <Dropdown.Item href="/partyRentals">Party Rentals</Dropdown.Item>
+              <Dropdown.Item href="#/action-2">Party</Dropdown.Item>
               <Dropdown.Item href="#/action-3">Catering Services</Dropdown.Item>
             </Dropdown.Menu>
           </Dropdown>

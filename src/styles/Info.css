@@ -6,17 +6,18 @@
 
 .info {
   display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
 }
 
 .item-card {
   height: 650px;
   width: 800px;
-  /* margin: auto; */
-  background-color: rgba(127, 255, 212, 0.63);
+  margin: auto;
 }
 
 .text-info {
-  background-color: rgba(127, 255, 212, 0.507);
   text-align: center;
   width: 40vw;
   font-family: "Rakkas", cursive;
@@ -39,10 +40,10 @@
 }
 
 .client-feedback {
-  background-color: rgba(127, 255, 212, 0.507);
   width: 90vh;
   font-family: "Itim", cursive;
   font-family: "Rakkas", cursive;
+  margin-top: 40px;
 }
 
 .entries {

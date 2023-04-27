@@ -1,12 +1,7 @@
 @import url("https://fonts.googleapis.com/css2?family=Alfa+Slab+One&display=swap");
 
 .hero-container {
-  background-color: aquamarine;
-}
-
-.hero-img {
-  display: flex;
-  justify-content: space-evenly;
+  background-color: white;
 }
 
 .hero-text {
@@ -14,16 +9,6 @@
   font-family: "Alfa Slab One", cursive;
   letter-spacing: 3px;
   text-align: center;
-}
-
-.Homepagepic {
-  height: 350px;
-  border-radius: 20px;
-}
-
-.HeroPic {
-  height: 350px;
-  border-radius: 20px;
 }
 
 .btn-book-now {
