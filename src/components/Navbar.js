@@ -51,9 +51,13 @@ const Navbar = () => {
               <Dropdown.Item href="#/action-3">Catering Services</Dropdown.Item>
             </Dropdown.Menu>
           </Dropdown>
+          <Link to="/gallery" className="link">
+            <li className="nav-link">Gallery</li>
+          </Link>
           <Link to="/info" className="link">
             <li className="nav-link">Info</li>
           </Link>
+
           <Link to="/contact" className="link">
             <li className="nav-link">Contact Us</li>
           </Link>

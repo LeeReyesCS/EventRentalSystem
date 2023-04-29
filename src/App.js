@@ -5,6 +5,7 @@ import Rentals from "./pages/Rentals";
 import Info from "./pages/Info";
 import Contact from "./pages/Contact";
 import PartyRentals from "./pages/PartyRentals";
+import Gallery from "./pages/Gallery";
 import "bootstrap/dist/css/bootstrap.min.css";
 
 function App() {
@@ -16,6 +17,7 @@ function App() {
         <Route path="/info" element={<Info />} />
         <Route path="/contact" element={<Contact />} />
         <Route path="/partyRentals" element={<PartyRentals />} />
+        <Route path="/gallery" element={<Gallery />} />
       </Routes>
     </div>
   );
