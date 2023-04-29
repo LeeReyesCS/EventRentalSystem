@@ -1,6 +1,7 @@
 import React from "react";
 import Navbar from "../components/Navbar";
 import Hero from "../components/Hero";
+import HomepageContent from "../components/HomepageContent";
 import Footer from "../components/Footer";
 
 const Homepage = () => {
@@ -8,6 +9,7 @@ const Homepage = () => {
     <div>
       <Navbar />
       <Hero />
+      <HomepageContent />
       <Footer />
     </div>
   );
