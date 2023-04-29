@@ -19,7 +19,10 @@ const Hero = () => {
         />
       </div>
       <div className="hero-text">
-        <h1>Life is a party, let me help you make it unforgettable!</h1>
+        <h1 style={{ color: "purple" }}>
+          {" "}
+          Life is a party, let me help you make it unforgettable!
+        </h1>
         <button className="btn-book-now">Book Now</button>
       </div>
     </div>

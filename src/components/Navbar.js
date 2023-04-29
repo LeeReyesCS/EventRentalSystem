@@ -36,7 +36,7 @@ const Navbar = () => {
                 position: "relative",
                 bottom: "8px",
                 left: "15px",
-                color: "cadetblue",
+                color: "plum ",
                 fontFamily: "Alfa Slab One",
               }}
               variant="success"

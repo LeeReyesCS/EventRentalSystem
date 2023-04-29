@@ -13,7 +13,7 @@
 
 .btn-book-now {
   margin-top: 20px;
-  background-color: darkcyan;
+  background-color: purple;
   border: none;
   color: white;
   padding: 15px 32px;
@@ -24,8 +24,8 @@
 }
 
 .btn-book-now:hover {
-  color: darkcyan;
-  background-color: white;
+  color: purple;
+  background-color: plum;
   cursor: pointer;
 }
 
