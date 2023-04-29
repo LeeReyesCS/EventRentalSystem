@@ -1,5 +1,6 @@
 import React from "react";
 import Navbar from "../components/Navbar";
+import Footer from "../components/Footer";
 
 const PartyRentals = () => {
   return (
@@ -32,6 +33,7 @@ const PartyRentals = () => {
           <li className="list-item">Bar & Bar Acccesories</li>
         </ul>
       </div>
+      <Footer />
     </>
   );
 };
