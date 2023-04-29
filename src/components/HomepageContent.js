@@ -2,7 +2,7 @@ import React from "react";
 import "../styles/HomePageContent.css";
 import GabbyHomePagePic1 from "../images/Gabby_Homepage_Pic.jpg";
 import GabbyHomePagePic2 from "../images/Gabby_Homepage_Pic2.jpg";
-import GabbyHomePagePic3 from "../images/Gabby_Homepage_Pic3.jpg";
+import GabbyHomePagePic3 from "../images/Gabby_Homepage_Pic5.jpg";
 import GabbyHomePagePic4 from "../images/Gabby_Homepage_Pic4.jpg";
 
 const HomepageContent = () => {

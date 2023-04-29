@@ -1,6 +1,6 @@
 import React from "react";
 import "../styles/Hero.css";
-import GabbysBannerPic from "../images/GabbysBannerPic.png";
+import GabbysBannerPic from "../images/Gabby's Homepage Pic6.jpg";
 
 const Hero = () => {
   return (
