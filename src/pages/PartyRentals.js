@@ -16,15 +16,28 @@ import PartyRentalsPic9 from "../images/PartyRentalsItems/PartyRentalsItemPic9.j
 import PartyRentalsPic10 from "../images/PartyRentalsItems/PartyRentalsItemPic10.jpg";
 import PartyRentalsPic11 from "../images/PartyRentalsItems/PartyRentalsItemPic11.jpg";
 import PartyRentalsPic12 from "../images/PartyRentalsItems/PartyRentalsItemPic12.jpg";
+import PartyRentalsPic13 from "../images/PartyRentalsItems/PartyRentalsItemPic13.jpg";
+import PartyRentalsPic14 from "../images/PartyRentalsItems/PartyRentalsItemPic14.jpg";
+import PartyRentalsPic15 from "../images/PartyRentalsItems/PartyRentalsItemPic15.jpg";
+import PartyRentalsPic16 from "../images/PartyRentalsItems/PartyRentalsItemPic16.jpg";
+import PartyRentalsPic17 from "../images/PartyRentalsItems/PartyRentalsItemPic17.jpg";
+import PartyRentalsPic18 from "../images/PartyRentalsItems/PartyRentalsItemPic18.jpg";
 
 const PartyRentals = () => {
   return (
     <>
       <Navbar />
       <div className="item-card-container">
-        <h4 style={{ fontSize: "22px", textAlign: "center" }}>
+        <h2
+          style={{
+            marginTop: "10px",
+            textAlign: "center",
+            fontFamily: "Rakkas",
+            color: "purple",
+          }}
+        >
           Items available for rent:{" "}
-        </h4>
+        </h2>
         <ul className="list-items-card">
           <div className="list-items">
             <img src={PartyRentalsPic1} alt="" />
@@ -44,11 +57,11 @@ const PartyRentals = () => {
           </div>
           <div className="list-items">
             <img src={PartyRentalsPic5} alt="" />
-            <li className="list-item">Buffet Tables (round and rectangular)</li>
+            <li className="list-item">Buffet Containers</li>
           </div>
           <div className="list-items">
             <img src={PartyRentalsPic6} alt="" />
-            <li className="list-item">Dinnerware</li>
+            <li className="list-item">Chafing Dishes</li>
           </div>
           <div className="list-items">
             <img src={PartyRentalsPic7} alt="" />
@@ -56,7 +69,7 @@ const PartyRentals = () => {
           </div>
           <div className="list-items">
             <img src={PartyRentalsPic8} alt="" />
-            <li className="list-item">Party Decorations</li>
+            <li className="list-item">Decorative Items</li>
           </div>
           <div className="list-items">
             <img src={PartyRentalsPic9} alt="" />
@@ -74,15 +87,30 @@ const PartyRentals = () => {
             <img src={PartyRentalsPic12} alt="" />
             <li className="list-item">Candle Lights</li>
           </div>
-
-          <li className="list-item">Back Drops</li>
-          <li className="list-item">Chargers</li>
-          <li className="list-item">Chafing Dishes</li>
-          <li className="list-item">Color</li>
-          <li className="list-item">Coffee Service</li>
-          <li className="list-item">Party Favors</li>
-          <li className="list-item">Tables</li>
-          <li className="list-item">Bar & Bar Acccesories</li>
+          <div className="list-items">
+            <img src={PartyRentalsPic13} alt="" />
+            <li className="list-item">Back Drops</li>
+          </div>
+          <div className="list-items">
+            <img src={PartyRentalsPic14} alt="" />
+            <li className="list-item">Party Favors</li>
+          </div>
+          <div className="list-items">
+            <img src={PartyRentalsPic15} alt="" />
+            <li className="list-item">Rounded Tables</li>
+          </div>
+          <div className="list-items">
+            <img src={PartyRentalsPic16} alt="" />
+            <li className="list-item">Outdoor Tents</li>
+          </div>
+          <div className="list-items">
+            <img src={PartyRentalsPic17} alt="" />
+            <li className="list-item">Bar/ Bar Accessories</li>
+          </div>
+          <div className="list-items">
+            <img src={PartyRentalsPic18} alt="" />
+            <li className="list-item">Rectangular Tables</li>
+          </div>
         </ul>
       </div>
       <Footer />
