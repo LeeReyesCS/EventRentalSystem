@@ -28,6 +28,24 @@ import GalleryPic21 from "../images/Gallery/GalleryPic21.jpg";
 import GalleryPic22 from "../images/Gallery/GalleryPic22.jpg";
 import GalleryPic23 from "../images/Gallery/GalleryPic23.jpg";
 import GalleryPic24 from "../images/Gallery/GalleryPic24.jpg";
+import GalleryPic25 from "../images/Gallery/GalleryPic25.jpg";
+import GalleryPic26 from "../images/Gallery/GalleryPic26.jpg";
+import GalleryPic27 from "../images/Gallery/GalleryPic27.jpg";
+import GalleryPic28 from "../images/Gallery/GalleryPic28.jpg";
+import GalleryPic29 from "../images/Gallery/GalleryPic29.jpg";
+import GalleryPic30 from "../images/Gallery/GalleryPic30.jpg";
+import GalleryPic31 from "../images/Gallery/GalleryPic31.jpg";
+import GalleryPic32 from "../images/Gallery/GalleryPic32.jpg";
+import GalleryPic33 from "../images/Gallery/GalleryPic33.jpg";
+import GalleryPic34 from "../images/Gallery/GalleryPic34.jpg";
+import GalleryPic35 from "../images/Gallery/GalleryPic35.jpg";
+import GalleryPic36 from "../images/Gallery/GalleryPic36.jpg";
+import GalleryPic37 from "../images/Gallery/GalleryPic37.jpg";
+import GalleryPic38 from "../images/Gallery/GalleryPic38.jpg";
+import GalleryPic39 from "../images/Gallery/GalleryPic39.jpg";
+import GalleryPic40 from "../images/Gallery/GalleryPic40.jpg";
+import GalleryPic41 from "../images/Gallery/GalleryPic41.jpg";
+import GalleryPic42 from "../images/Gallery/GalleryPic42.jpg";
 
 const Gallery = () => {
   return (
@@ -43,6 +61,12 @@ const Gallery = () => {
         <img src={GalleryPic4} alt="" />
         <img src={GalleryPic5} alt="" />
         <img src={GalleryPic6} alt="" />
+        <img src={GalleryPic25} alt="" />
+        <img src={GalleryPic26} alt="" />
+        <img src={GalleryPic27} alt="" />
+        <img src={GalleryPic28} alt="" />
+        <img src={GalleryPic29} alt="" />
+        <img src={GalleryPic30} alt="" />
       </div>
       <p className="gallery-headers">Baby Showers</p>
       <div className="gallery-container">
@@ -53,6 +77,12 @@ const Gallery = () => {
         <img src={GalleryPic10} alt="" />
         <img src={GalleryPic11} alt="" />
         <img src={GalleryPic12} alt="" />
+        <img src={GalleryPic37} alt="" />
+        <img src={GalleryPic38} alt="" />
+        <img src={GalleryPic39} alt="" />
+        <img src={GalleryPic40} alt="" />
+        <img src={GalleryPic41} alt="" />
+        <img src={GalleryPic42} alt="" />
       </div>
       <p className="gallery-headers">Weddings</p>
       <div className="gallery-container">
@@ -69,6 +99,16 @@ const Gallery = () => {
         <img src={GalleryPic22} alt="" />
         <img src={GalleryPic23} alt="" />
         <img src={GalleryPic24} alt="" />
+      </div>
+      <p className="gallery-headers">Graduations</p>
+      <div className="gallery-container">
+        {/* Graduation Pictures */}
+        <img src={GalleryPic31} alt="" />
+        <img src={GalleryPic32} alt="" />
+        <img src={GalleryPic33} alt="" />
+        <img src={GalleryPic34} alt="" />
+        <img src={GalleryPic35} alt="" />
+        <img src={GalleryPic36} alt="" />
       </div>
       <Footer />
     </>
