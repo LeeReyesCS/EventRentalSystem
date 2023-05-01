@@ -6,17 +6,7 @@ const Hero = () => {
   return (
     <div className="hero-container">
       <div className="bannerPic">
-        <img
-          style={{
-            objectFit: "cover",
-            imageRendering: "auto",
-            maxWidth: "100%",
-            width: "100vw",
-            height: "300px",
-          }}
-          src={GabbysBannerPic}
-          alt=""
-        />
+        <img src={GabbysBannerPic} alt="" />
       </div>
       <div className="hero-text">
         <h1 style={{ color: "purple" }}>

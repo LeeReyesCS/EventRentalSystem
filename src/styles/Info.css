@@ -55,7 +55,7 @@
 }
 
 /* Media Queries*/
-@media screen and (max-width: 480px) {
+@media screen and (max-width: 768px) {
   .info {
     flex-direction: column;
   }
@@ -63,5 +63,8 @@
   .item-card,
   .client-feedback {
     width: 100vw;
+  }
+  .info {
+    margin-top: 150px;
   }
 }

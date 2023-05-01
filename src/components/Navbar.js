@@ -3,7 +3,6 @@ import { Link } from "react-router-dom";
 import "../styles/Navbar.css";
 import Dropdown from "react-bootstrap/Dropdown";
 import GabbysPic from "../images/Gabby-sLogo.jpg";
-import HomePagePic from "../images/Gabby_Homepage_Pic.jpg";
 
 const Navbar = () => {
   return (
