@@ -58,6 +58,7 @@
     display: grid;
     grid-template-columns: repeat(2, 1fr);
     position: relative;
+    gap: 10px;
     right: 50px;
     text-align: center;
   }

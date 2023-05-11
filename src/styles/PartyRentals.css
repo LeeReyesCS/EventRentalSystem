@@ -32,3 +32,14 @@
 .list-item {
   list-style: none;
 }
+
+@media screen and (max-width: 768px) {
+  .item-card-container h2 {
+    padding-top: 120px;
+  }
+
+  .list-items-card {
+    grid-template-columns: repeat(2, 1fr);
+    gap: 30px;
+  }
+}
